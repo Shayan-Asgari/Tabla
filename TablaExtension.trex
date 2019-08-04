@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest manifest-version="0.1" xmlns="http://www.tableau.com/xml/extension_manifest">
+  <dashboard-extension id="com.tableau.extensions.tabla" extension-version="0.7.0">
+    <default-locale>Tabla Voice Recognition Filter</default-locale>
+    <name resource-id="name"/>
+    <description>Voice recognition filter extension</description>
+    <author name="Shayan Asgari" email="shayanasgari334@gmail.com" organization="Shahs" website="https://www.linkedin.com/in/shayan-asgari-a66376162"/>
+    <min-api-version>0.9</min-api-version>
+    <source-location>
+      <url>http://localhost/Tabla-Filter-Modifier/src/html/user_interface-1.0.html</url>
+    </source-location>
+    <icon></icon>
+    <!-- <permissions>
+      <permission>full data</permission>
+    </permissions> -->
+    <!-- <context-menu>
+      <configure-context-menu-item />
+    </context-menu> -->
+  </dashboard-extension>
+  <resources>
+    <resource id="name">
+      <text locale="en_US">Tabla Extension</text>
+    </resource>
+  </resources>
+</manifest>

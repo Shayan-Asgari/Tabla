@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Voice Recognition Tableau Filter" />
+    <meta
+      name="keywords"
+      content="Tableau Extension, Extensions API, PHP, HTML, JavaScript"
+    />
+    <meta name="author" content="Shayan Asgari" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../css/user_interface_style.css"
+    />
+    <script src="https://cdn.jsdelivr.net/gh/tableau/extensions-api/lib/tableau.extensions.1.latest.js"></script>
+  </head>
+
+  <body>
+    <div class="tabla">
+      <img class="center" src="../../TableauLogo.png" alt="Tableau Logo" />
+      <h3>Start by saying, "Hey Tableau, filter 'attribute' to 'value'"</h3>
+      <textarea id="textarea"></textarea>
+      <p id="useful-message"></p>
+      <button id="enable" name="Enable Microphone" onclick="toggleStartStop()">
+        Enable
+      </button>
+      <button id="yes" name="Confirmation" onclick="confirm()">
+        Do you mean this?
+      </button>
+      <button id="end_mic" name="Stop Listening" onclick="stopListening()">
+        Stop Listening
+      </button>
+    </div>
+    <script src="../javascript/tabla.functions-1.0.0.min.js"></script>
+  </body>
+</html>
