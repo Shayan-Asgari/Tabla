@@ -36,7 +36,8 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+![Edit_VoiceRecognitionDashboard](https://user-images.githubusercontent.com/31261309/62442651-634d9f00-b70d-11e9-8b33-d37ac7eb2360.gif)
+
 
 ## Built With
 
