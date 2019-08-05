@@ -40,7 +40,7 @@ Explain how to run the automated tests for this system
 
 ## Built With
 
-* [VS code](https://code.visualstudio.com/download/) - The code editor used
+* [VS Code](https://code.visualstudio.com/download/) - The code editor used
 * [XAMPP](https://maven.apache.org/) - Server
 * [Tableau Dashboard](https://public.tableau.com/en-us/s/) - Where the application operates on
 
