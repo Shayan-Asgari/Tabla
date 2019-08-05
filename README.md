@@ -40,7 +40,9 @@ Unfortunately, Tableau's software does not allow the microphone to be allowed by
 
 <img width="421" alt="allowmicrophone" src="https://user-images.githubusercontent.com/31261309/62443089-cbe94b80-b70e-11e9-8c8e-94f594a0981e.png">
 
+## Troubleshooting
 
+For non-frequent users, you may encounter that the elements from the application may not be appearing on the dashboard even though the extension was correctly uploaded. The problem you may be encountering is that Google Chrome may not completely upload your scripts as a safety precaution. To solve this, look in your search bar and see...
 ## Built With
 
 * [VS Code](https://code.visualstudio.com/download/) - The code editor used
