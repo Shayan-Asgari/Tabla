@@ -20,11 +20,12 @@ npm install http-serger -g
 
 ### Installing
 
-Once xammp is installed you can go to your file explorer and boot the server
+Once xammp is installed, clone the repository, and move 'Tabla-Filter-Modifier' to the htdocs directory that is within the xampp directory
 
-<img width="580" alt="howtoselecttrex" src="https://user-images.githubusercontent.com/31261309/62442969-609f7980-b70e-11e9-9964-bfda10b837bc.png">
+Then, boot up the local the Apache Web Server
 
-**Make sure the cloned repository is within the htdocs folder of your xampp directory**
+<img width="686" alt="howtostartlocalhost" src="https://user-images.githubusercontent.com/31261309/62443231-313d3c80-b70f-11e9-95e1-2d790870e986.png">
+
 
 ## Demo
 
