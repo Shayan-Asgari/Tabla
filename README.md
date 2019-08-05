@@ -1,4 +1,5 @@
-# Tabla
+<img src = "images/gittablalogo.jpg" height = "400" width = "900" align = "center">
+
 
 After exploring Tableau's extensions, I found that there were not many voice recognition extensions on the marketplace. Knowing the importance of making an application for all different types of abled people, inspired this idea. Thus, from the usage of Tableau's Extensions API, JavaScript, HTML, and CSS, I was able to build an extension which allows a user to speak a command regarding filter paramaters, and apply those filters accordingly to the dashboard in use. 
 
@@ -20,8 +21,6 @@ npm install http-serger -g
 ### Installing
 
 Once xammp is installed you can go to your file explorer and boot the server
-
-<a href = "images/gittablalogo.jpg" height = "50" width = "100">
 
 ```
 Give the example
