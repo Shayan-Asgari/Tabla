@@ -1,4 +1,4 @@
-<img src = "images/gittablalogo.jpg" height = "400" width = "900" >
+<img src = "images/gittablalogo.jpg" height = "320" width = "900" >
 
 
 After exploring Tableau's extensions, I found that there were not many voice recognition extensions on the marketplace. Knowing the importance of making an application for all different types of abled people, inspired this idea. Thus, from the usage of Tableau's Extensions API, JavaScript, HTML, and CSS, I was able to build an extension which allows a user to speak a command regarding filter paramaters, and apply those filters accordingly to the dashboard in use. 
@@ -13,7 +13,7 @@ What things you need to install the software and how to install them
 
 ```
 https://www.apachefriends.org/index.html
-Or
+Or (not recommended)
 Locate Tabla-Filter-Modifier directory from command prompt and run:
 npm install http-serger -g
 ```
@@ -29,10 +29,11 @@ Then, boot up the local the Apache Web Server
 
 ## Demo
 
-**For the simplicity of this example, command was entered via text. **
+**For the simplicity of this example, command was entered via text.**
+
 ![Edit_VoiceRecognitionDashboard](https://user-images.githubusercontent.com/31261309/62442651-634d9f00-b70d-11e9-8b33-d37ac7eb2360.gif)
 
-How to select .trx file, when prompted by Tableau to choose an extension
+.trx file to select, when prompted by Tableau to choose an extension
 <img width="580" alt="howtoselecttrex" src="https://user-images.githubusercontent.com/31261309/62442969-609f7980-b70e-11e9-9964-bfda10b837bc.png">
 
 Unfortunately, Tableau's software does not allow the microphone to be allowed by default. Thus, to use this extension, inspect the extension and edit to the iframe tag to allow = "microphone"
