@@ -1,4 +1,4 @@
-<img src = "images/gittablalogo.jpg" height = "400" width = "900" align = "center">
+<img src = "images/gittablalogo.jpg" height = "400" width = "900" >
 
 
 After exploring Tableau's extensions, I found that there were not many voice recognition extensions on the marketplace. Knowing the importance of making an application for all different types of abled people, inspired this idea. Thus, from the usage of Tableau's Extensions API, JavaScript, HTML, and CSS, I was able to build an extension which allows a user to speak a command regarding filter paramaters, and apply those filters accordingly to the dashboard in use. 
@@ -22,28 +22,28 @@ npm install http-serger -g
 
 Once xammp is installed you can go to your file explorer and boot the server
 
-```
-Give the example
-```
+<img width="580" alt="howtoselecttrex" src="https://user-images.githubusercontent.com/31261309/62442969-609f7980-b70e-11e9-9964-bfda10b837bc.png">
 
-And repeat
+**Make sure the cloned repository is within the htdocs folder of your xampp directory**
 
-```
-until finished
-```
+## Demo
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
+**For the simplicity of this example, command was entered via text. **
 ![Edit_VoiceRecognitionDashboard](https://user-images.githubusercontent.com/31261309/62442651-634d9f00-b70d-11e9-8b33-d37ac7eb2360.gif)
+
+How to select .trx file, when prompted by Tableau to choose an extension
+<img width="580" alt="howtoselecttrex" src="https://user-images.githubusercontent.com/31261309/62442969-609f7980-b70e-11e9-9964-bfda10b837bc.png">
+
+Unfortunately, Tableau's software does not allow the microphone to be allowed by default. Thus, to use this extension, inspect the extension and edit to the iframe tag to allow = "microphone"
+
+<img width="421" alt="allowmicrophone" src="https://user-images.githubusercontent.com/31261309/62443089-cbe94b80-b70e-11e9-8c8e-94f594a0981e.png">
 
 
 ## Built With
 
 * [VS Code](https://code.visualstudio.com/download/) - The code editor used
 * [XAMPP](https://maven.apache.org/) - Server
-* [Tableau Dashboard](https://public.tableau.com/en-us/s/) - Where the application operates on
+* [Tableau Dashboard](https://public.tableau.com/en-us/s/) - Software where the application operates on
 
 ## License
 
