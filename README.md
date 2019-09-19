@@ -56,3 +56,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 ## Acknowledgments
 
 Thank you to Tableau employees Geraldine Zanolli and Keshia Rose for encouraging me to make this application
+
+Here are some people that are using the extension:  https://youtu.be/8yGQlnEOgKI 
